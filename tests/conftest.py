@@ -10,5 +10,5 @@ def my_server(request: pytest.FixtureRequest) -> Generator[LiveServer, None, Non
     app = Flask("app")
     server = LiveServer(app, "localhost", 8080, True)
     server.start()
-    request.addfinalizer(server.stop)
     yield server
+    server.stop()
