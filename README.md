@@ -2,6 +2,8 @@
 
 Reproducing hanging teardown with [playwright-pytest](https://github.com/microsoft/playwright-pytest) fixture.
 
+See: https://github.com/microsoft/playwright-pytest/issues/187
+
 ## To reproduce
 
 1. `python3 -m venv .venv`
