@@ -9,4 +9,4 @@ Reproducing hanging teardown with [playwright-pytest](https://github.com/microso
 3. `pip install -r requirements.txt`
 4. `pytest --setup-show`
 
-This hangs on tearing down the `playwright` fixture. Use CTRL+C to terminate.
+This hangs on tearing down the `playwright` fixture (use CTRL+C to terminate).
