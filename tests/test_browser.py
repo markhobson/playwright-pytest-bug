@@ -6,5 +6,5 @@ def test_server(page: Page):
     pass
 
 
-def test_browser(my_server: LiveServer, page: Page):
+def test_browser(live_server: LiveServer, page: Page):
     pass
